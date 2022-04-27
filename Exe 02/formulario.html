@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form name="cadastro_clientes">
+        <h1 align="center">
+            Cadastro
+        </h1>
+        <hr>
+        <p>Nome: <input name="textName" type="text" size="70" maxlength="60" placeholder="Digite seu nome aqui"> </p>
+        
+        <p>Endereço: <input type="text" size="38"> Nº <input type="number" name="num" size="2"> </p>
+
+        <p>
+            Data de nascimento: <input type="date" name="bday">
+            Idade: <input type="number" name="qt" min="01" max="100">
+        </p>
+        <p>Telefone: <input type="tel" name="usertel" maxlength="11" placeholder="(xx)xxxx-xxxx"></p>
+        
+        <p align="center">
+            <input type="submit" name="enviar" value="GRAVAR"> 
+            <input type="reset" name="limpar" value="LIMPAR"> 
+        </p>
+        
+        <hr>
+
+        <p>Escolaridade:</p>
+        <input type="radio" name="esc" value="e1"> Ensino Fundamental Completo
+        <input type="radio" name="esc" value="e1"> Ensino Medio Completo
+
+        <hr>
+        
+        <p>Disciplinas cursadas:</p>
+        <input type="checkbox" name="opc1" value="inf"> INF
+        <input type="checkbox" name="opc2" value="log1"> LOG1
+        <input type="checkbox" name="opc3" value="aw1"> AW1
+        <input type="checkbox" name="opc4" value="aw2"> AW2
+
+    </form>
+</body>
+</html>

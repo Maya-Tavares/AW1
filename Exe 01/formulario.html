@@ -4,14 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <title>Formulario Exemplo I</title>
 </head>
 <body>
     <form name="cadastro_clientes">
-        <h2 align="center">
+        <h1 align="center">
             Formulario de Cadastro
-        </h2>
-        <p>Nome Completo:<input name="textName" type="text" size="50" maxlength="50"> </p>
+        </h1>
+        <h2>Dados pessoais:</h2>
+        <hr>
+        <p>Nome Completo: <input name="textName" type="text" size="50" maxlength="50"> </p>
+        
+        <p>E-mail: <input type="e-mail" placeholder="Digite seu e-mail aqui"></p>
+
+        <p> Senha: <input type="password" name="senha" placeholder="Digite sua senha" minlength="8">
+             <input type="submit" name="enviar" value="Enviar"> 
+
+        <p> Contato <input type="tel" name="usertel" maxlength="11"></p>
+        <p>Website Pessoal <input type="url" name="webpage"></p>
+
+        <p><input type="hidden" name="datanascimento" ></p>
+
+        <p>Data e Horário de nascimento: <input type="datetime-local" name="bdaytime"></p>
+
+        <p>Idade: <input type="number" name="qt" min="18" max="80"> </p>
+
+        <p>Etnia:</p>
+        <input type="radio" name="idade" value="branco"> Branco
+        <input type="radio" name="idade" value="negro"> Negro
+        <input type="radio" name="idade" value="indigena"> Indigena
+
+        <p>Coisas que gosta:</p>
+        <input type="checkbox" name="opc1" value="bicileta"> Ver Séries
+        <input type="checkbox" name="opc2" value="carro"> Ler Livros
+        <input type="checkbox" name="opc3" value="moto"> Baladas
+
+        <p>Selecione sua cor favorita: <input type="color" name="favcor" value="#01AD99" > </p>
+        
+            <h2>Outros:</h2>
+        <hr>
+
+        <input type="file" name="arquivos">
+      
+        <input type="file" name="arquivos" multiple>
+        <input type="hidden" id="inputOculto" name="inputOcukto" value="" >
+        <br>
+        
+        <p>Data Atual <input type="week" name="semana"> <input type="month" name="mesano" ></p>
+        
+        <input type="image" src="sendforms.png" alt="submit" width="30" > 
+
+        <h2 align="center">Defina seu nivel de satisfação com o formulário: </h2>
+        <p> ruim <input type="range" name="satisfacao" min="0" max="5"> ótimo </p>
+        <p>
+            <textarea name="textarea" cols="70" rows="10" placeholder="Escreva aqui"></textarea>
+
+        </p>
     </form>
 </body>
 </html>
