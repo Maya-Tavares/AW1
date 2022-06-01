@@ -1,0 +1,27 @@
+div .box{
+    padding: 1rem;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+
+    box-shadow: 5px solid black;
+    border: 10px solid black;
+    border-radius: 5px;
+}
+
+.box:hover{
+    border: 10px;
+    background-color: rgb(255, 242, 127);
+    transition: 1s;
+    cursor: pointer;
+
+    box-shadow: 5px solid black;
+    border: 10px solid black;
+    border-radius: 5px;
+}
+
+p{
+    padding: 2rem;
+    text-align: center;
+}
