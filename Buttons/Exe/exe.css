@@ -1,0 +1,78 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/136664.jpg);
+}
+
+h2{
+    color: white;
+    font-size: 6em;
+    text-align: center;
+}
+
+/*buttons*/
+
+.button {
+    display: inline-block;
+    
+    border-radius: 4px;
+    background-color: #ece1de;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2rem;
+    width: 15rem;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.shadow:hover{
+    box-shadow: 0 4px rgb(16, 187, 199);
+}
+
+.color:hover{
+    background-color: rgb(16, 187, 199);
+}
+
+.border{
+    border-radius: 3px;
+    border-style: dotted;
+    color: rgb(16, 187, 199);
+    border-width: 5px;
+}
+
+.text span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.text span:after {
+    content: 'SURPRISE';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+.text:hover span {
+    padding-right: 25px;
+  }
+  
+.text:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+span{
+    color: rgb(143, 8, 136);
+    font-size: larger;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
