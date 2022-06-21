@@ -1,5 +1,4 @@
-/*hover*/
-
+/*hover animation*/
 .button {
     display: inline-block;
     border-radius: 4px;
@@ -62,6 +61,14 @@
     cursor: not-allowed;
 }
 
+/*press effect*/
+
+.button2:active {
+    background-color: #f4511e;
+    box-shadow: 0 3px rgb(0, 0, 0);
+    transform: translateY(3px);
+}
+
 /*body*/
 
 #gap {
@@ -74,4 +81,5 @@
 
 h2{
     text-align: center;
+    font-size: 7em;
 }
