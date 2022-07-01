@@ -1,0 +1,73 @@
+/*header*/
+*{
+    margin: 0;
+}
+
+.header{
+    background: -webkit-repeating-linear-gradient(45deg,rgb(0, 242, 255),red 10%);
+    padding: 1rem;
+    margin-bottom: 4rem;
+}
+
+
+.content{
+    display: inline-flex;
+    justify-content: center;
+    padding: 0.5rem; 
+    align-items: center;
+    width: 100%;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+
+/*main*/
+
+h1{
+    margin: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.items{
+
+}
+
+img {
+    border-radius: 20%;
+    width: 100px;
+    margin: 2rem;
+ }
+
+#shadow{
+    -webkit-filter: drop-shadow(8px 8px 5px red);
+}
+ 
+#blackwhite{
+    -webkit-filter: grayscale(100%);
+}
+
+#esmaecido{
+    -webkit-filter: opacity(50%);
+ }
+
+
+h2{
+    margin-left: 1rem;
+    margin-top: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.columns{
+    margin: 2rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 0.7em;
+        -webkit-column-count: 3; /* Chrome, Safari, Opera */
+        -moz-column-count: 3; /* Firefox */
+        column-count: 3;
+        -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+        -moz-column-gap: 40px; /* Firefox */
+        column-gap: 40px;
+        -webkit-column-rule: 1px solid red; /* Chrome, Safari, Opera */
+        -moz-column-rule: 1px solid red; /* Firefox */
+        column-rule: 1px solid red;
+}
