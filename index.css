@@ -61,13 +61,13 @@ h2{
     margin: 2rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 0.7em;
-        -webkit-column-count: 3; /* Chrome, Safari, Opera */
-        -moz-column-count: 3; /* Firefox */
-        column-count: 3;
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+        column-count: 2;
         -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
         -moz-column-gap: 40px; /* Firefox */
         column-gap: 40px;
-        -webkit-column-rule: 1px solid red; /* Chrome, Safari, Opera */
-        -moz-column-rule: 1px solid red; /* Firefox */
-        column-rule: 1px solid red;
+        -webkit-column-rule: 1px solid black; /* Chrome, Safari, Opera */
+        -moz-column-rule: 1px solid black; /* Firefox */
+        column-rule: 1px solid black;
 }
