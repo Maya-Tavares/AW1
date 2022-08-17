@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>JavaScript Introduction</h1>
+    <ul>
+        <li>JavaScript não é uma implementação especial da Java ou é baseado nesta</li>
+        <li>Essa é chamada uma “linguagem do lado cliente” por que sua execução se dá diretamente no browser, independente de servidor.</li>
+        <li>JavaScript não é uma linguagem para acesso a banco de dados, mas para tratamento e dinamização dos elementos da página.</li>
+    </ul>
+
+        <script>
+            var nome = prompt("Qual o seu nome?");	
+			alert("Bom dia, " + nome);
+
+            var n1 = prompt("Digite sua média do primeiro bimestre em AW1: ");
+            n1 = parseFloat(n1);
+            var n2 = prompt("Digite sua média do segundo bimestre em AW1: ");
+            n2 = parseFloat(n2);
+            var result = (n1+n2)/2;
+            alert("Sua média no semestre foi: " + result );
+        </script>
+
+</body>
+</html>

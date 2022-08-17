@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 2rem;
+}
+
+ul{
+    text-align: justify;
+    text-decoration: dashed;
+}
+
+li{
+    font-weight: bold;
+    margin: 3rem;
+}
