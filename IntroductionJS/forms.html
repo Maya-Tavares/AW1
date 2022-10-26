@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="forms.css"></script>
+    <title>Formulário</title>
+</head>
+<body>
+    <div id="sec-1">
+        <div id="sec-2">
+            <h1>Cadastro</h1>
+            <form action="verificar()">
+                <p>Nome Completo: <input name="name" type="text" size="50" maxlength="50"> </p>
+        
+                <p>E-mail: <input type="e-mail" placeholder="Digite seu e-mail aqui"></p>
+
+                <p> Senha: <input type="password" name="senha" placeholder="Digite sua senha" minlength="8">
+                 
+                <p> Confirmar Senha: <input type="password" name="senha2" minlength="8"></p>
+
+                <input type="submit" name="enviar" value="Enviar" onclick="verificar()">
+
+            </form>
+        </div>
+    </div>
+
+        <script src="forms.js"></script>
+</body>
+</html>
